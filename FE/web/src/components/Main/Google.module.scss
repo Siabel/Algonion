@@ -1,0 +1,54 @@
+
+.gSignInWrapper {
+  // background-color: black;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.google-button {
+  display: inline-block;
+  background: white;
+  width: 200px;
+  height: 48px;
+  border-radius: 12px;
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+}
+
+.google-button:hover {
+  background-color: #4285F4;
+  color: white;
+}
+
+.google-button:hover .buttonText {
+  color: white;
+}
+
+span.label {
+  font-family: serif;
+  font-weight: normal;
+}
+
+span.icon {
+  background: url("https://i.ibb.co/fv0q3jq/web-neutral-rd-na-1x.png") 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+
+span.buttonText {
+  padding-left: 42px;
+  padding-right: 42px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  /* Use the Roboto font that is loaded in the <head> */
+  font-family: 'Roboto', sans-serif;
+}

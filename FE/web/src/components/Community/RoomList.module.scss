@@ -1,0 +1,46 @@
+.roomContainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  gap: 2rem; 
+  margin-top: 2rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  }
+}
+.container{
+  margin-top: 5rem;
+
+  margin-bottom: 15rem;
+}
+
+.buttonContainer{
+  gap: 1rem;
+}
+
+.communityTitle{
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  font-size: xx-large;
+}
+
+.createRoom{
+  // 크기
+  // height: 40px;
+  width: 40px;
+
+  // 색
+  background-color: #8F00FF;
+  
+  // 모양
+  // border-radius: 100%;
+  
+  // 플러스 버튼
+  color: white;
+  font-size: 40px;  
+
+  // &:active{
+
+  // }
+}

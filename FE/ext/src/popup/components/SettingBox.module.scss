@@ -1,0 +1,19 @@
+.box {
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #302d41;
+
+  position: absolute;
+  /* top: 1.12rem + 3.75rem + 0.5rem; */
+  top: 5.37rem;
+  /* left: 1rem + 8rem + 0.5rem + 3.75rem + 0.5rem; */
+  left: 13.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover{
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,29 @@
+.page {
+    // text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 5rem auto;
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  // background-color: aquamarine;
+}
+
+.textbox {
+  margin: 1.5rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+.formbox{
+  margin: 0 0.5rem;
+  
+  display: flex;
+  justify-content: space-around;
+
+  .button {
+    width: 45%;
+  }
+}

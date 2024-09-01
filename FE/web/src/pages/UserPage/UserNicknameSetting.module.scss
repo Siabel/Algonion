@@ -1,0 +1,71 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 5rem auto;
+
+  // background-color: aquamarine;
+}
+
+.textbox {
+  margin: 1.5rem 0.5rem 0.5rem;
+  font-size: 1.5rem;
+}
+
+.formbox{
+  margin: 0 0.5rem;
+  
+  input {
+    width: 100%;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #cdd6f4;
+    border-radius: 0.5rem;
+    outline: none;
+
+    font-size: 0.9rem;
+    &:focus {
+      border-color: #9f22ff;
+      box-shadow: 0 0 0 1.3px #cba6f7;
+      
+      &::placeholder {
+        color: transparent;
+      }
+    }
+  }
+  
+  button {
+    width: 100%;
+    margin: 0.2rem 0rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #cdd6f4;
+    border-radius: 0.5rem;
+    outline: none;
+
+    font-size: 0.9rem;
+
+    background-color: #9f22ff;
+    color: #ebebeb;;
+    font-size: 1rem;
+
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+
+    font-size: 0.8rem;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    &:focus {
+      background-color: #9000ff;
+      color: #edeff5;
+
+      transform: scale(1.02);
+    }
+  }
+  
+  .buttonbox {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

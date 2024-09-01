@@ -1,0 +1,49 @@
+.page {
+  margin-bottom: 20rem;
+
+  .nameHover {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  table {
+      width: 100%;
+      margin: auto;
+      border-collapse: collapse;
+      .site, .number, .tier, .date {
+        width: 9rem;
+      }
+    }
+  th, td {
+      border-bottom: 1px solid #cacaca;
+      padding: 0.3rem 1rem;
+      text-align: center;
+  }
+
+  td:hover {
+    cursor: pointer;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+
+.center {
+  text-align: center;
+}
+
+.pagenationContainer {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: center;
+  .pagenation {
+    margin: auto;
+  }
+}
+
+.title {
+  width: 30rem;
+}

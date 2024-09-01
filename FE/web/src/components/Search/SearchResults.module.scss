@@ -1,0 +1,10 @@
+.result {
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cursor {
+    &:hover {
+        cursor: pointer;
+    }
+}

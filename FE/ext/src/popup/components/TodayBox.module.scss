@@ -1,0 +1,29 @@
+/* 투데이 */
+.box {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 0.5rem;
+  background: #302d41;
+  margin: 0 0 0 0.5rem;
+
+  .title {
+    margin: 0;
+    padding: 0.25rem 0 0 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  .solved {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    .count1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .count2 {
+      font-size: 0.75rem;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.page {
+  background-color: #f2f4f6;
+  display: flex;
+  justify-content: center;
+  
+  .mainPage {
+    width: 100%;
+    .main {
+      height: 35rem;
+    }
+    .mainDescription {
+      margin-top: 10rem;
+      
+    }
+    .descriptions{
+      width: 80%;
+      margin: auto;
+      margin-top: 15rem;
+      .description_right{
+        text-align: right;
+      }
+    }
+  }
+}
+
+.description_image {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+}

@@ -1,0 +1,20 @@
+.main-description {
+  display: flex;
+  flex-direction: column; 
+  color: black;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.main-description h2 {
+  text-decoration: underline;
+  // text-decoration-style: double;
+  font-size:x-large;
+  font-weight: 600;
+  margin: 1rem;
+  letter-spacing : 0.15rem;
+}
+
+.main-description h3 {
+  font-size: large;
+}

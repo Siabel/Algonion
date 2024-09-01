@@ -1,0 +1,146 @@
+.editor {
+  padding: 1.8rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 1.17rem;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-weight: bold;
+  }
+
+  h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+  }
+
+  h6 {
+    font-size: 0.67rem;
+    font-weight: bold;
+  }
+
+  >*+* {
+    margin-top: 0.75em;
+  }
+
+
+  code {
+    background-color: rgba(#616161, 0.1);
+    color: rgb(235,87,87);
+  }
+
+  pre {
+    background: #0D0D0D;
+    color: #FFF;
+    font-family: 'JetBrainsMono', monospace;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+
+    code {
+      color: inherit;
+      padding: 0;
+      background: none;
+      font-size: 0.8rem;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  hr {
+    margin: 1rem 0;
+  }
+
+  blockquote {
+    padding-left: 1rem;
+    border-left: 2px solid rgba(#0D0D0D, 0.1);
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+    ul {
+      list-style-type: circle;
+
+      ul {
+        list-style-type: square;
+      }
+    }
+
+
+
+  }
+
+  ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+}
+
+.buttons {
+  margin: 0.5rem 1.5rem 1rem;
+
+  display: flex;
+  justify-content: flex-end;
+  p {
+   margin-right: 0.5rem;
+   padding-top: 0.5rem;
+
+  }
+  button {
+    margin: 0 0.1rem;
+  }
+}
+
+.formbox{
+  margin: 0 0.5rem;
+  
+  input {
+    width: 100%;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #cdd6f4;
+    border-radius: 0.5rem;
+    outline: none;
+
+    font-size: 0.9rem;
+    &:focus {
+      border-color: #9f22ff;
+      box-shadow: 0 0 0 1.3px #cba6f7;
+      
+      &::placeholder {
+        color: transparent;
+      }
+    }
+  }
+
+}
+
+.buttonbox {
+  display: flex;
+  justify-content: flex-end;
+}

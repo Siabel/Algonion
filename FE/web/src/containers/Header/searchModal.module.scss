@@ -1,0 +1,10 @@
+.searchLink{
+  // padding-top: 3px;
+  margin-top: 0.1rem;
+  margin-right: 0.15rem;
+
+  &:hover {
+    color: rgb(143, 0, 255);
+    transition: all 0.2s ease-in-out;
+  }
+}

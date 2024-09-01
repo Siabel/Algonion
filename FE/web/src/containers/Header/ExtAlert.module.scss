@@ -1,0 +1,21 @@
+.alert {
+  background: rgb(206, 107, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(206, 107, 255, 1) 0%,
+    rgba(255, 166, 0, 1) 100%
+  );
+  padding: 0.5rem;
+  color: white;
+  position: sticky;
+  z-index: 10;
+  .center {
+    text-align: center;
+  }
+  .close {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
